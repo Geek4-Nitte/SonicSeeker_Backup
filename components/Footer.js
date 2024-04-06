@@ -22,18 +22,13 @@ const Footer = () => {
             Deepgram
           </a>
         </span>
-        ,{" "}
+        and{" "}
         <span className={styles.link}>
           <a href="https://nextjs.org" target="_blank" rel="noreferrer">
             NextJS
           </a>
         </span>{" "}
-        and{" "}
-        <span className={styles.link}>
-          <a href="https://vercel.com" target="_blank" rel="noreferrer">
-            Vercel
-          </a>
-        </span>
+        {" "}
       </p>
     </footer>
   );

@@ -9,7 +9,7 @@ export const about = [
   {
     question: "Why was it built?",
     answers: [
-      "we wanted to find a solution that could save days of work by processing voice recordings based on speech recognition.",
+      "We wanted to find a solution that could save days of work by processing voice recordings based on speech recognition.",
     ],
   },
   {

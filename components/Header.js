@@ -3,6 +3,7 @@ import Router from "next/router";
 
 import styles from "./Header.module.css";
 
+
 const Header = () => {
   return (
     <header className={styles.wrapper}>
@@ -14,7 +15,7 @@ const Header = () => {
               Router.reload(window.location.pathname);
           }}
         >
-          <img className={styles.icon} src="logo/cue.png" alt="cue" />
+          <img className={styles.icon} src="logo/sonic.png" alt="sonic" />
           <h2 className={styles.name}>SonicSeeker</h2>
         </div>
       </Link>
